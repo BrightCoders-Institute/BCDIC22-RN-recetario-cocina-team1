@@ -10,6 +10,7 @@ const MainPage = () => {
     <View style={styles.fondo}>
       <Busqueda />
       <Ctrending />
+      
     </View>
   )
 }

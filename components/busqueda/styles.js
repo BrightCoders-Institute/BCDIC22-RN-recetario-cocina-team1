@@ -5,7 +5,7 @@ export default StyleSheet.create({
     backgroundColor: '#cecece',
     width: '99%',
     height: '5%',
-    borderRadius: 35,
+    borderRadius: 15,
     alignItems: 'center',
   },
 });

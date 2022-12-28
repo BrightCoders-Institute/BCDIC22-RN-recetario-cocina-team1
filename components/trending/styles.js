@@ -6,26 +6,35 @@ export default StyleSheet.create({
     width: '100%',
     height: '40%',
   },
-  titleTrending:{
-		color: 'pink',
+  letraComida: {
+    color: 'white',
     fontSize: 20,
+    fontWeight: 'Bold',
+  },
+  titleTrending: {
+		color: '#B5067B',
+    fontSize: 25,
     fontStyle: 'arial',
   },
 	menucontainer: {
-		alignItems: 'center',
-    justifyContent: 'space-evenly',
+    flexDirection: 'row',
+    backgroundColor: 'green',
+    alignItems: 'flex-start',
 	},
 	foodContainer: {
 		width: 180,
-		height: 180,
-    backgroundColor: 'blue',
+		height: 200,
+    backgroundColor: 'grey',
 		alignItems: 'center',
     justifyContent: 'center',
 	},
+
 	foodimg: {
+    alignItems: 'center',
 		width: 160,
-		height: 140,
-    backgroundColor: 'red',
+		height: 150,
+    backgroundColor: 'yellow',
+    borderRadius: 15,
 	}
 
 });

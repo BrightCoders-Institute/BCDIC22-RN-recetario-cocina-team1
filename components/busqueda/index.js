@@ -5,7 +5,7 @@ import styles from './styles';
 const Busqueda = () => {
   return (
     <View style={styles.container}>
-      <TextInput placeholder="what do you want eat" />
+      <TextInput placeholder="Que quieres comer?" />
     </View>
   );
 };

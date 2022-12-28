@@ -1,21 +1,51 @@
-import { View, Text } from 'react-native'
+import { View, Text, Image, ScrollView} from 'react-native'
 import React from 'react'
 import styles from './styles'
 
 const Ctrending = () => {
   return (
     <View style={styles.trending}>
-        <View>
-            <Text style={styles.titleTrending}>Trending</Text>
-        </View>
-        <View style={styles.menucontainer}>
-            <View style={styles.foodContainer}>
-                <View style={styles.foodimg}></View>
-                <View>
-                    <Text> Ramen</Text>
-                </View>
+    <View>
+        <Text style={styles.titleTrending}>TRENDING </Text>
             </View>
-        </View>
+            <ScrollView horizontal={true}>
+                <View style={styles.menucontainer}>
+                    <View style={styles.foodContainer}>
+                        <View style={styles.foodimg}>
+                            <Image style={{width: 160, height: 150, borderRadius: 15}} source={{ uri: "https://laroussecocina.mx/wp-content/uploads/2019/08/S050419-30-RAMEL-0614-1.jpg.webp" }}/>
+                        </View>
+
+                    <View>
+                            <Text style={styles.letraComida}>Ramen</Text>
+                    </View>
+                </View>
+
+
+
+
+                <View style={styles.foodContainer}>
+                    <View style={ styles.foodimg}>
+                        <Image style={{width: 160, height: 150, borderRadius: 15}} source ={{ uri: "https://assets.unileversolutions.com/recipes-v2/109068.jpg"}}/>
+                    </View>
+                    <View>
+                        <Text style={styles.letraComida}>Carne Asada</Text>
+                    </View>
+                </View>
+
+
+                <View style={styles.foodContainer}>
+                    <View style={ styles.foodimg}>
+                        <Image style={{width: 160, height: 150, borderRadius: 15}} source ={{ uri: "https://assets.unileversolutions.com/recipes-v2/109068.jpg"}}/>
+                    </View>
+                    <View>
+                        <Text style={styles.letraComida} >Pizza</Text>
+                    </View>
+                </View>
+
+
+
+            </View>
+            </ScrollView>
     </View>
   )
 }
