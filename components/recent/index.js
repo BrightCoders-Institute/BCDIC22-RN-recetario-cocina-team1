@@ -17,6 +17,7 @@ const Recent = () => {
             <Text style={styles.textComida}>Pasta</Text>
           </View>
         </View>
+        
       </View>
     </View>
   );

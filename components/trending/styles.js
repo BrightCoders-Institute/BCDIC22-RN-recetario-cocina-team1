@@ -8,8 +8,8 @@ export default StyleSheet.create({
   },
   letraComida: {
     color: 'white',
-    fontSize: 20,
-    fontWeight: 'Bold',
+    fontSize: 18,
+    fontFamily: 'arial',
   },
   titleTrending: {
     color: '#B5067B',
@@ -18,14 +18,14 @@ export default StyleSheet.create({
   },
   menucontainer: {
     flexDirection: 'row',
-    backgroundColor: '#ffff',
+    backgroundColor: 'gren',
     alignItems: 'flex-start',
   },
   foodContainer: {
-    width: 180,
-    height: 200,
-    backgroundColor: 'gray',
-    alignItems: 'center',
+    width: 190,
+    height: 300,
+    backgroundColor: '#282828',
+    alignItems: 'flex-start',
     justifyContent: 'center',
   },
 
