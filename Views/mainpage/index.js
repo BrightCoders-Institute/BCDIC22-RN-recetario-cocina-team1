@@ -3,6 +3,7 @@ import React from 'react'
 import styles from './styles'
 import Busqueda from '../../components/busqueda'
 import Ctrending from '../../components/trending'
+import Recent from '../../components/recent'
 
 const MainPage = () => {
 
@@ -10,6 +11,7 @@ const MainPage = () => {
     <View style={styles.fondo}>
       <Busqueda />
       <Ctrending />
+      <Recent />
       
     </View>
   )
