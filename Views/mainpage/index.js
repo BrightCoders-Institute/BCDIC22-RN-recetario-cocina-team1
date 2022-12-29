@@ -9,9 +9,9 @@ const MainPage = () => {
 
   return (
     <View style={styles.fondo}>
-      <Busqueda />
-      <Ctrending />
-      <Recent />
+      <Busqueda/>
+      <Ctrending/>
+      <Recent/>
       
     </View>
   )

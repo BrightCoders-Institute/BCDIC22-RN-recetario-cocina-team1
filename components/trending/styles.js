@@ -6,6 +6,11 @@ export default StyleSheet.create({
     width: '100%',
     height: '40%',
   },
+  letraContainer: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+  },
   letraComida: {
     color: 'white',
     fontSize: 18,
@@ -18,14 +23,15 @@ export default StyleSheet.create({
   },
   menucontainer: {
     flexDirection: 'row',
-    backgroundColor: 'gren',
-    alignItems: 'flex-start',
+    backgroundColor: '#282828',
+    alignItems: 'center',
   },
   foodContainer: {
     width: 190,
     height: 300,
     backgroundColor: '#282828',
     alignItems: 'flex-start',
+    margin: 15,
     justifyContent: 'center',
   },
 

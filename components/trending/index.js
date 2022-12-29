@@ -14,7 +14,6 @@ const Ctrending = () => {
                         <View style={styles.foodimg}>
                             <Image style={{width: 160, height: 150, borderRadius: 15}} source={{ uri: "https://laroussecocina.mx/wp-content/uploads/2019/08/S050419-30-RAMEL-0614-1.jpg.webp" }}/>
                         </View>
-
                     <View>
                             <Text style={styles.letraComida}>Ramen</Text>
                     </View>
@@ -27,9 +26,10 @@ const Ctrending = () => {
                     <View style={ styles.foodimg}>
                         <Image style={{width: 160, height: 150, borderRadius: 15}} source ={{ uri: "https://assets.unileversolutions.com/recipes-v2/109068.jpg"}}/>
                     </View>
-                    <View>
+                <View>
                         <Text style={styles.letraComida}>Carne Asada</Text>
-                    </View>
+                </View>
+                    
                 </View>
 
 

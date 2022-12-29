@@ -2,10 +2,19 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: '#cecece',
-    width: '99%',
+    backgroundColor: '#343435',
+    width: '95%',
     height: '5%',
-    borderRadius: 15,
-    alignItems: 'center',
+    borderRadius: 8,
+    alignItems: 'flex-start',
+    flexDirection: 'row',
+    margin: 15,
+    justifyContent: 'space-between',
+  },
+  Lupa: {
+    flexDirection: 'row',
+    width: 20,
+    height: 20,
+    margin: 10,
   },
 });
