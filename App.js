@@ -1,13 +1,8 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
-import MainPage from './Views/mainpage';
-import PageInfo from './Views/pageInfo';
+import {Navigation} from './Navigation/Index';
 
 export default function App() {
   return (
-    <>
-      <MainPage />
-      {/* <PageInfo /> */}
-    </>
+      <Navigation/>
   );
 }
