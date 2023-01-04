@@ -5,10 +5,10 @@
     {
       "id": 1,
       "nombre": "Ramen",
-      "imagen": "https://images.ctfassets.net/2ly8a1n15gva/1y8fMgp9M4Jo16Sy5HM687/c89e434dbc64577d5909ce6b20078683/img-popo-formula-leche-infantil.png",
+      "imagen": "https://www.elmundoeats.com/wp-content/uploads/2021/02/FP-Quick-30-minutes-chicken-ramen.jpg",
       "ingredientes":[
         {
-          "cantidad": "1,5 kg.",
+          "cantidad": "500g.",
           "nombre": "Pollo Despiezado"
         },
         {
@@ -34,52 +34,54 @@
     {
       "id": 2,
       "nombre": "Carne Asada",
+      "imagen": "https://saboryestilo.com.mx/wp-content/uploads/2020/01/tips-para-hacer-la-mejor-carne-asada-1200x900.jpg",
       "ingredientes":[
         {
-          "cantidad": "1,5 kg.",
-          "nombre": "Pollo Despiezado"
+          "cantidad": "500 gr",
+          "nombre": "Carne de res"
         },
         {
-          "cantidad": "1.",
-          "nombre": "Cebolleta china"
+          "cantidad": "1 cucharada",
+          "nombre": "Sal de mar"
         },
         {
-          "cantidad": "150 g.",
-          "nombre": "setas shitake"
+          "cantidad": "2 cucharadas",
+          "nombre": "Aceite"
         },
         {
-          "cantidad": "30 g.",
-          "nombre": "Atún seco en polvo o escamas, katsuobuchi"
+          "cantidad": "1 cucharada",
+          "nombre": "Ajo en polvo"
         },
         {
-          "cantidad": "4.",
-          "nombre": "Zanahorias"
+          "cantidad": "1/2 cuch.",
+          "nombre": "Pimienta negra"
         } 
       ]
     },
     {
-      "id": 2,
-      "nombre": "Carne Asada",
+      "id": 3,
+      "nombre": "Pizza",
+      "imagen": "https://www.saborusa.com/wp-content/uploads/2019/12/origen-de-la-pizza-1.jpg",
       "ingredientes":[
         {
-          "cantidad": "1,5 kg.",
-          "nombre": "Pollo Despiezado"
+          "cantidad": "1 kg.",
+          "nombre": "Harina de fuerza."
         },
         {
           "cantidad": "1.",
-          "nombre": "Cebolleta china"
+          "nombre": "Cucharadita de Sal Fina."
         },
         {
-          "cantidad": "150 g.",
-          "nombre": "setas shitake"
+          "cantidad": "2",
+          "nombre": "Tazas de agua tibia."
         },
         {
-          "cantidad": "30 g.",
-          "nombre": "Atún seco en polvo o escamas, katsuobuchi"
+          "cantidad": "2. ",
+          "nombre": "Cucharas soperas de aceite de olivia."
         },
         {
-          "cantidad": "4.",
-          "nombre": "Zanahorias"
+          "cantidad": "30 gr.",
+          "nombre": "De levadura fresca."
         }
       ]
     }

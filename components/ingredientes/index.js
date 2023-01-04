@@ -8,8 +8,8 @@ const Ingredientes = (props) => {
         // <View style={styles.container}>
         <View style={styles.container }>
             <View style={styles.containerTitulo}>
-                <Text style={styles.titulo}>Ingredients</Text>
-                <Text style={styles.subTitulo}>for 3 servings</Text>
+                <Text style={styles.titulo}>Ingredientes</Text>
+                <Text style={styles.subTitulo}>Para 1 Porcion</Text>
             </View>
             <ScrollView>
             <View style={styles.containerItems}>
@@ -23,6 +23,7 @@ const Ingredientes = (props) => {
                 <View style={styles.border}></View>
                 <Text style={styles.item}>{`${props.dataJson.ingredientes[4].cantidad} ${props.dataJson.ingredientes[4].nombre}`}</Text>
                 <View style={styles.border}></View>
+
             </View>
             </ScrollView>
         </View>

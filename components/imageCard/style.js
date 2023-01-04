@@ -36,9 +36,21 @@ export default StyleSheet.create({
         paddingBottom: 16,
         marginBottom: 10
       },
+
+      container2: {
+        width: '95%',
+        height: '5%',
+        borderRadius: 8,
+        alignItems: 'flex-start',
+        flexDirection: 'row',
+        margin: 15,
+        justifyContent: 'flex-end',
+      },
       containerIconos: {
         flexDirection: 'row',
+        width: 30,
+        height: 30,
+        margin: 10,
       },
-      
       
 });

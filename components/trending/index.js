@@ -24,7 +24,7 @@ const Ctrending = ({navigation}) => {
                 </TouchableOpacity>
                 
 
-                <TouchableOpacity onPress={()=>navigation.navigate('Info', {nombrePlatillo: "CarneAsada"})}>
+                <TouchableOpacity onPress={()=>navigation.navigate('Info', {infoPlatillo: Info.platillos[1]})}>
                 <View style={styles.foodContainer}>
                     <View style={ styles.foodimg}>
                         <Image style={{width: 160, height: 150, borderRadius: 15}} source ={{ uri: "https://assets.unileversolutions.com/recipes-v2/109068.jpg"}}/>
@@ -37,7 +37,7 @@ const Ctrending = ({navigation}) => {
                 </TouchableOpacity>
 
 
-                <TouchableOpacity onPress={()=>navigation.navigate('Info')}>
+                <TouchableOpacity onPress={()=>navigation.navigate('Info', {infoPlatillo: Info.platillos[2]})}>
                 <View style={styles.foodContainer}>
                     <View style={ styles.foodimg}>
                         <Image style={{width: 160, height: 150, borderRadius: 15}} source ={{ uri: "https://t2.rg.ltmcdn.com/es/posts/1/9/3/pizza_casera_31391_orig.jpg"}}/>
