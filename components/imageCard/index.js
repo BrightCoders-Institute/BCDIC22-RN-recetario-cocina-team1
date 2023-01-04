@@ -5,12 +5,12 @@ import styles from './style';
 const image = { uri: 'https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg'}
 // const image = { uri: 'https://reactjs.org/logo-og.png'}
 
-const ImageCard = () => {
+const ImageCard = (props) => {
     return(
         
         <View style={styles.container}>
 
-            <ImageBackground source={image} resizeMode='cover' style={styles.image}>
+            <ImageBackground source={{uri:props.dataJson.imagen}} resizeMode='cover' style={styles.image}>
                 <View style={styles.containerInterno}>
                     <View style={styles.containerIconos}>
                         <Button title='X' style={styles.btnExit}/>
@@ -19,7 +19,7 @@ const ImageCard = () => {
                     </View>
                     <View style={styles.textoReceta}>
                         <Text style={styles.text}>Trending</Text>
-                        <Text style={styles.textPlato}>Pizza Napolitana</Text>
+                        <Text style={styles.textPlato}>{props.dataJson.nombre}</Text>
                     </View>
                 </View>
             </ImageBackground>

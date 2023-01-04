@@ -1,8 +1,9 @@
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 import React from 'react';
 import styles from './style';
+import infoIngred from '../../app.json'
 
-const Ingredientes = () => {
+const Ingredientes = (props) => {
     return(
         // <View style={styles.container}>
         <View style={styles.container }>
@@ -10,18 +11,20 @@ const Ingredientes = () => {
                 <Text style={styles.titulo}>Ingredients</Text>
                 <Text style={styles.subTitulo}>for 3 servings</Text>
             </View>
+            <ScrollView>
             <View style={styles.containerItems}>
-                <Text style={styles.item}>puff pastry</Text>
+                <Text style={styles.item}>{`${props.dataJson.ingredientes[0].cantidad} ${props.dataJson.ingredientes[0].nombre}`}</Text>
                 <View style={styles.border}></View>
-                <Text style={styles.item}>peperoni</Text>
+                <Text style={styles.item}>{`${props.dataJson.ingredientes[1].cantidad} ${props.dataJson.ingredientes[1].nombre}`}</Text>
                 <View style={styles.border}></View>
-                <Text style={styles.item}>marinada sauce</Text>
+                <Text style={styles.item}>{`${props.dataJson.ingredientes[2].cantidad} ${props.dataJson.ingredientes[2].nombre}`}</Text>
                 <View style={styles.border}></View>
-                <Text style={styles.item}>sherdded mozzarella chese</Text>
+                <Text style={styles.item}>{`${props.dataJson.ingredientes[3].cantidad} ${props.dataJson.ingredientes[3].nombre}`}</Text>
                 <View style={styles.border}></View>
-                <Text style={styles.item}>egg for egg wash</Text>
+                <Text style={styles.item}>{`${props.dataJson.ingredientes[4].cantidad} ${props.dataJson.ingredientes[4].nombre}`}</Text>
                 <View style={styles.border}></View>
             </View>
+            </ScrollView>
         </View>
     );
 };

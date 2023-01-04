@@ -1,4 +1,87 @@
 {
   "name": "RecetarioCocinaTeam1",
-  "displayName": "RecetarioCocinaTeam1"
+  "displayName": "RecetarioCocinaTeam1",
+  "platillos":[
+    {
+      "id": 1,
+      "nombre": "Ramen",
+      "imagen": "https://images.ctfassets.net/2ly8a1n15gva/1y8fMgp9M4Jo16Sy5HM687/c89e434dbc64577d5909ce6b20078683/img-popo-formula-leche-infantil.png",
+      "ingredientes":[
+        {
+          "cantidad": "1,5 kg.",
+          "nombre": "Pollo Despiezado"
+        },
+        {
+          "cantidad": "1.",
+          "nombre": "Cebolleta china"
+        },
+        {
+          "cantidad": "150 g.",
+          "nombre": "setas shitake"
+        },
+        {
+          "cantidad": "30 g.",
+          "nombre": "Atún seco en polvo o escamas, katsuobuchi"
+        },
+        {
+          "cantidad": "4",
+          "nombre": "Zanahorias"
+        }
+  
+      ]
+    },
+
+    {
+      "id": 2,
+      "nombre": "Carne Asada",
+      "ingredientes":[
+        {
+          "cantidad": "1,5 kg.",
+          "nombre": "Pollo Despiezado"
+        },
+        {
+          "cantidad": "1.",
+          "nombre": "Cebolleta china"
+        },
+        {
+          "cantidad": "150 g.",
+          "nombre": "setas shitake"
+        },
+        {
+          "cantidad": "30 g.",
+          "nombre": "Atún seco en polvo o escamas, katsuobuchi"
+        },
+        {
+          "cantidad": "4.",
+          "nombre": "Zanahorias"
+        } 
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Carne Asada",
+      "ingredientes":[
+        {
+          "cantidad": "1,5 kg.",
+          "nombre": "Pollo Despiezado"
+        },
+        {
+          "cantidad": "1.",
+          "nombre": "Cebolleta china"
+        },
+        {
+          "cantidad": "150 g.",
+          "nombre": "setas shitake"
+        },
+        {
+          "cantidad": "30 g.",
+          "nombre": "Atún seco en polvo o escamas, katsuobuchi"
+        },
+        {
+          "cantidad": "4.",
+          "nombre": "Zanahorias"
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 import { View, Text, Image, ScrollView, Touchable, TouchableOpacity} from 'react-native'
 import React from 'react'
 import styles from './styles'
+import Info from '../../app.json'
 
 const Ctrending = ({navigation}) => {
   return (
@@ -11,7 +12,7 @@ const Ctrending = ({navigation}) => {
             <ScrollView horizontal={true}>
             <View style={styles.menucontainer}>
 
-                <TouchableOpacity onPress={()=>navigation.navigate('Info')}>
+                <TouchableOpacity onPress={()=>navigation.navigate('Info',{infoPlatillo: Info.platillos[0]})}>
                     <View style={styles.foodContainer}>
                         <View style={styles.foodimg}>
                             <Image style={{width: 160, height: 150, borderRadius: 15}} source={{ uri: "https://laroussecocina.mx/wp-content/uploads/2019/08/S050419-30-RAMEL-0614-1.jpg.webp" }}/>
@@ -23,7 +24,7 @@ const Ctrending = ({navigation}) => {
                 </TouchableOpacity>
                 
 
-                <TouchableOpacity onPress={()=>navigation.navigate('Info')}>
+                <TouchableOpacity onPress={()=>navigation.navigate('Info', {nombrePlatillo: "CarneAsada"})}>
                 <View style={styles.foodContainer}>
                     <View style={ styles.foodimg}>
                         <Image style={{width: 160, height: 150, borderRadius: 15}} source ={{ uri: "https://assets.unileversolutions.com/recipes-v2/109068.jpg"}}/>
